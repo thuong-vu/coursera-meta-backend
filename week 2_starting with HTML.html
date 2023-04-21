@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <h2>Falafel</h2>
+    <p>Chickpea, herbs and spices</p>
+    <h2>Pasta Salad</h2>
+    <p>Lettuce, vegetttables and mozzarella.</p>
+    <a href="/advancedsearch.html">Our location</a>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Tracy</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>31</td>
+        </tr>
+    </table>
+    <form action="" method="post">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password"> <br>
+        <label for="age">Age: </label>
+        <input type="number" name="age"> <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email"> <br>
+        <label for="file">File: </label>
+        <input type="file" name="file"> <br>
+        <input type="submit"> <br><br>
+    </form>
+    <div>
+        <form action="">
+            <input type="checkbox" name="dog" id="dog" value="dog">
+            <label for="dog">I own a dog</label><br>
+            <input type="checkbox" name="cat" id="cat" value="cat">
+            <label for="cat">I own a cat</label><br>
+            <input type="submit">
+        </form>
+    </div><br>
+    <div>
+        <form action="">
+            <input type="radio" name="right" value="Right" />
+            <label for="right">I am right-handed</label> <br>
+            <input type="radio" name="left" value="Left" />
+            <label for="left">I am left-handed</label> <br>
+            <input type="submit">
+        </form>
+    </div>
+    <div>
+        <input type="text" name="text"> <br>
+        <textarea name="multiline" id="texts" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <select name="food" id="food">
+            <option value="chocolate">Chocolate</option>
+            <option value="icecream">Ice-cream</option>
+        </select>
+    </div>
+</body>
+</html>
